@@ -9,5 +9,15 @@ Please find more info about each part in the relevant Readme file ([frontend](fr
 When implementing a new feature or fixing a bug, please create a new pull request against `main` from a feature/bug branch and add `@vanessa-cooper` as reviewer.
 
 ## First setup
+1. Clone the repository locally
+    - `git clone `https://github.com/ObelusFamily/Anythink-Market-286lh`
+    - `cd Anythink-Market-286lh`
 
-**[TODO 05/01/2018 @vanessa-cooper]:** _It's been a while since anyone ran a fresh copy of this repo. I think it's worth documenting the steps needed to install and run the repo on a new machine?_
+2. Install [Docker](https://docs.docker.com/get-docker/) and validate
+    - Validate Docker is running
+        - `docker -v` and `docker-compose -v`
+3. Create and start docker containers using docker-compose
+    - docker-compose up
+
+4. Validate access to web server once docker-compose is ready
+    - In your browser, navigate to [http://localhost:3000/api/ping](http://localhost:3000/api/ping)
